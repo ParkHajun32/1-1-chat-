@@ -10,15 +10,12 @@
 <body>
     <div class="wrapper">
         <div class="user-container">
-            <label for="nickname"></label>
+            <label for="nickname">대화자명(username)</label>
             <input type="text" id="nickname">
         </div>
         <div class="display-container">
-            <ul class="chatting-list">
-                
-            </ul>
+            <ul class="chatting-list"></ul>
         </div>
-
         <div class="input-container">
             <span>
                 <input type="text" class="chatting-input">
@@ -26,6 +23,8 @@
             </span>
         </div>
     </div>
+
+
     <script src = "/socket.io/socket.io.js"></script>
     <script src = "js/chat.js"></script>
 </body>
